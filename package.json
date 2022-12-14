@@ -1,0 +1,17 @@
+{
+  "name": "tomorrow-house",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite & node-sass -wr styles/main.scss style.css",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
