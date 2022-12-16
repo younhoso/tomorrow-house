@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite & node-sass -wr styles/index.scss style.css",
+    "dev": "vite & node-sass -wr --source-map true styles/index.scss style.css",
     "build": "vite build",
     "preview": "vite preview"
   },

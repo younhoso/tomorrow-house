@@ -46,13 +46,15 @@ select,
 textarea,
 button,
 table {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 18px;
+  font-family: $font-main;
+  font-size: $font-size-16;
+  line-height: $line-height-16;
   font-weight: 400;
-  color: #000;
-  line-height: 1.5;
+  color: $gray-3;
   word-break: keep-all;
   word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 h1,
 h2,
@@ -164,15 +166,15 @@ input.disabled,
 select,
 radio {
   &[disabled='disabled'] {
-    background-color: #f3f3f3;
+    background-color: $white;
     cursor: default;
-    border-color: #ccc;
+    border-color: $gray-1;
   }
 }
 
 input[readonly='readonly'],
 input.readonly {
-  background-color: #fafafa;
+  background-color: $white;
   cursor: default;
 }
 
@@ -187,23 +189,23 @@ select::-ms-expand {
   display: none;
 }
 ::-webkit-input-placeholder {
-  color: #999;
+  color: $gray-3;
   font-weight: normal;
 }
 ::-moz-placeholder {
-  color: #999;
+  color: $gray-3;
   font-weight: normal;
 }
 :-ms-input-placeholder {
-  color: #999;
+  color: $gray-3;
   font-weight: normal;
 }
 :-moz-placeholder {
-  color: #999;
+  color: $gray-3;
   font-weight: normal;
 }
 select.placeholder {
-  color: #999;
+  color: $gray-3;
   font-weight: normal;
 }
 th,

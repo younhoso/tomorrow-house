@@ -47,13 +47,15 @@ select,
 textarea,
 button,
 table {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 18px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
-  color: #000;
-  line-height: 1.5;
+  color: #3f4150;
   word-break: keep-all;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 h1,
 h2,
@@ -153,13 +155,13 @@ input[disabled='disabled'],
 input.disabled[disabled='disabled'],
 select[disabled='disabled'],
 radio[disabled='disabled'] {
-  background-color: #f3f3f3;
+  background-color: #fff;
   cursor: default;
-  border-color: #ccc; }
+  border-color: #191a20; }
 
 input[readonly='readonly'],
 input.readonly {
-  background-color: #fafafa;
+  background-color: #fff;
   cursor: default; }
 
 select {
@@ -173,23 +175,23 @@ select::-ms-expand {
   display: none; }
 
 ::-webkit-input-placeholder {
-  color: #999;
+  color: #3f4150;
   font-weight: normal; }
 
 ::-moz-placeholder {
-  color: #999;
+  color: #3f4150;
   font-weight: normal; }
 
 :-ms-input-placeholder {
-  color: #999;
+  color: #3f4150;
   font-weight: normal; }
 
 :-moz-placeholder {
-  color: #999;
+  color: #3f4150;
   font-weight: normal; }
 
 select.placeholder {
-  color: #999;
+  color: #3f4150;
   font-weight: normal; }
 
 th,
