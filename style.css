@@ -346,6 +346,15 @@ summary:hover {
 .ic-twitter:before {
   content: '\ea96'; }
 
+/**
+@param {Required | Number}
+@param {Options | HexCode}
+
+@example
+p { 
+  @include text-style(12, #000);
+}
+*/
 /*
 * Mobile( < 768px)
 * fixture: ------------- sm
