@@ -349,7 +349,7 @@ summary:hover {
 /*
 * Mobile( < 768px)
 * fixture: ------------- sm
-* columns: -------------- 4
+* columns: ------------- 4
 * unit: ---------------- (100% - (5px * 2)) / 4 - 20px
 * gutter: -------------- 20px
 * margin: -------------- 5px
@@ -358,7 +358,7 @@ summary:hover {
 /*
 * Tablet( >= 768px)
 * fixture: ------------- md
-* columns: -------------- 12
+* columns: ------------- 12
 * unit: ---------------- (100% - (30px * 2)) / 4 - 20px
 * gutter: -------------- 20px
 * margin: -------------- 30px
@@ -368,7 +368,7 @@ summary:hover {
 /*
 * DeskTop ( >= 1200px)
 * fixture: ------------- lg
-* columns: -------------- 12
+* columns: ------------- 12
 * unit: ---------------- 75px
 * gutter: -------------- 20px
 * margin: -------------- auto
@@ -394,7 +394,7 @@ summary:hover {
     width: 100%; }
   @media screen and (min-width: 768px) {
     .container {
-      max-width: 960px;
+      max-width: 1020px;
       padding: 0 30px; }
       .container .col-md-1 {
         width: 8.33333%; }
@@ -420,5 +420,33 @@ summary:hover {
         width: 91.66667%; }
       .container .col-md-12 {
         width: 100%; } }
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+      padding: 0; }
+      .container .col-lg-1 {
+        width: 95px; }
+      .container .col-lg-2 {
+        width: 190px; }
+      .container .col-lg-3 {
+        width: 285px; }
+      .container .col-lg-4 {
+        width: 380px; }
+      .container .col-lg-5 {
+        width: 475px; }
+      .container .col-lg-6 {
+        width: 570px; }
+      .container .col-lg-7 {
+        width: 665px; }
+      .container .col-lg-8 {
+        width: 760px; }
+      .container .col-lg-9 {
+        width: 855px; }
+      .container .col-lg-10 {
+        width: 950px; }
+      .container .col-lg-11 {
+        width: 1045px; }
+      .container .col-lg-12 {
+        width: 1140px; } }
 
 /*# sourceMappingURL=style.css.map */
