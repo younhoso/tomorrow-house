@@ -5,7 +5,7 @@ export default defineConfig({
     devSourcemap: true, // this one
   },
   build: {
-    outDir: '/',
+    outDir: 'dist',
     target: 'esnext',
     polyfillDynamicImport: false,
   },
