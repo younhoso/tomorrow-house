@@ -40,10 +40,10 @@
 
 @example
 p { 
-  @include text-style(12, #000);
+  @include textSize(12, #000);
 }
 */
-@mixin text-style($size, $color: '') {
+@mixin textSize($size, $color: '') {
   @if ($size == 12) {
     @include text-style-12;
   }
