@@ -5,7 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@500;700&display=swap');
 @import './base/reset';
 @import './base/icFonts';
+
 @import './mixins/textStyle';
 @import './mixins/deviceBreakpoint';
 @import './mixins/positions';
+@import './mixins/flexbox';
+
 @import './layouts/grids';
