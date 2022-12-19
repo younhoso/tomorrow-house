@@ -62,7 +62,7 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
     }
   }
 
-  @include responsive(T) {
+  @include deviceBreakpoint(T) {
     max-width: $md-max-container;
     padding: 0 $md-margin;
 
@@ -73,7 +73,7 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
     }
   }
 
-  @include responsive(D) {
+  @include deviceBreakpoint(D) {
     max-width: $lg-max-container;
     padding: 0;
 

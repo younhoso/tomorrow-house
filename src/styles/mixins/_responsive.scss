@@ -1,4 +1,4 @@
-@mixin responsive($screen) {
+@mixin deviceBreakpoint($screen) {
   @if ($screen == 'T') {
     @media screen and (min-width: $md-breakpoint) {
       @content;
