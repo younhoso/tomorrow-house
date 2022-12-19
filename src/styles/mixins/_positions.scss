@@ -1,0 +1,5 @@
+@mixin pos-center-x($type: absolute) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
