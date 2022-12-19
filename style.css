@@ -483,6 +483,43 @@ p {
   height: 32px;
 }
 
+.star-rating-13,
+.star-rating-16,
+.star-rating-20,
+.star-rating-24 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-rating-13 .ic-star,
+.star-rating-16 .ic-star,
+.star-rating-20 .ic-star,
+.star-rating-24 .ic-star {
+  color: #e0e2e7;
+}
+.star-rating-13 .ic-star.is-active,
+.star-rating-16 .ic-star.is-active,
+.star-rating-20 .ic-star.is-active,
+.star-rating-24 .ic-star.is-active {
+  color: #3da5f5;
+}
+
+.star-rating-13 {
+  font-size: 13px;
+}
+
+.star-rating-16 {
+  font-size: 16px;
+}
+
+.star-rating-20 {
+  font-size: 20px;
+}
+
+.star-rating-24 {
+  font-size: 24px;
+}
+
 /*
 * Mobile( < 768px)
 * fixture: ------------- sm
